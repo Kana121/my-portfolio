@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#body-header{
+    height: 65vh;
+    opacity:0.8 ;
+    background-image: url('image/macbook_mouse.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#body-header ul{
+    display: flex;
+list-style: none;
+justify-content: center;
+gap: 20px;
+padding: 20px;
+}
+#body-header ul li a{
+text-decoration: none;
+color: white;
+text-transform: capitalize;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+section:nth-child(2n){
+    background-color: #9e9b9b29;
+}
+
+section:nth-child(2n+1){
+    background-color: white;
+}
+.section-heading{
+    width: auto;
+    padding: 20px 10px 10px;
+    margin: 10px auto;
+    font-weight: 400;
+}
+.section-heading span{
+    font-size: 40px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+#my-image{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+#my-image img{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+.skills{
+    display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr);
+    justify-content: center;
+    align-content: center;
+    row-gap: 2rem;
+}
+.skills-display{
+width: 70%;
+/* height: 100px; */
+/* border: 2px solid black; */
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.skill-progress{
+    text-align: center;
+    width: 7rem;
+    height: 1.4rem;
+    background-color: lightgray;
+    border-radius: 0.8rem;
+    border: 2px solid black;
+}
+.skill-progress>div{
+    border-left: 20px 0px 0px 20px;
+}
+
+.eighty-five-percent{
+    width: 85%;
+    height: inherit;
+}
+.mb-blue {
+    background-color: #2d2ddd;
+    border-radius: 15px 0px 0px 15px; /* Adds rounded corners */
+   
+}
+.mb-green {
+    background-color: #27884c;
+    border-radius: 15px 0px 0px 15px; /* Adds rounded corners */
+   
+}
+
+.mb-pink {
+    background-color: #942986;
+    border-radius: 15px 0px 0px 15px; /* Adds rounded corners */
+   
+}
+.mb-yellow {
+    background-color: rgb(202, 153, 45);
+    border-radius: 15px 0px 0px 15px; /* Adds rounded corners */
+   
+}
+.mb-yellow-green {
+    background-color: rgb(94, 109, 28);
+    border-radius: 15px 0px 0px 15px; /* Adds rounded corners */
+   
+}
+.mb-blue-light {
+    background-color: #00aeff;
+    border-radius: 15px 0px 0px 15px; /* Adds rounded corners */
+   
+}
+.skill-name span{
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+.mb75px{
+    margin-bottom: 75px;
+}
+.text-highlight{
+    color: #2857a4;
+   
+}
